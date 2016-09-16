@@ -5,7 +5,7 @@
  */
 body {
   overflow-x: hidden;
-  font-family: "Helvetica";
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
 }
 .text-muted {
 color: black;
@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   /*text-transform: uppercase;*/
   font-weight: 700;
 }
@@ -60,7 +60,7 @@ h6 {
   color: white;
   background-color: #5b9bd5;
   border-color: #5b9bd5;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -104,12 +104,12 @@ fieldset[disabled] .btn-primary.active {
   color: black;
   background-color: #5b9bd5;
   border-color: #5b9bd5;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   border-radius: 3px;
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 10px 20px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -153,7 +153,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #5b9bd5;
-  font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: "Open Sans Condensed", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -167,7 +167,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-toggle {
   background-color: #5b9bd5;
   border-color: #5b9bd5;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 12px;
@@ -177,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: #5b9bd5;
 }
 .navbar-custom .nav li a {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
@@ -243,14 +243,14 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:  "Open Sans Condensed", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 50px;
   line-height: 50px;
@@ -263,14 +263,14 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
-    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Open Sans Condensed", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
     /*text-transform: uppercase;*/
     font-weight: 300;
     font-size: 75px;
@@ -282,13 +282,13 @@ section {
   padding: 100px 0;
 }
 section h2.section-heading {
-  font-size: 40px;
+  font-size: 60px;
   margin-top: 0;
   margin-bottom: 15px;
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:  "Open Sans Condensed", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -302,6 +302,7 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  font-weight: 1000;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -355,7 +356,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:  "Open Sans Condensed", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -581,27 +582,27 @@ section#contact .form-control:focus {
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact :-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
@@ -615,14 +616,14 @@ footer {
 }
 footer span.copyright {
   line-height: 40px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
@@ -678,7 +679,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
