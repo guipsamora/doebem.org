@@ -18,6 +18,16 @@ p {
   line-height: 1.75;
 }
 
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 120%;
+    margin: auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
 p.large {
   font-size: 24px;
 }
@@ -27,15 +37,17 @@ a:focus,
 a:active,
 a.active {
   outline: none;
+  text-decoration: none;
 }
 a {
-  color: #5b9bd5;
+  color: #000000;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #000000;
+  outline: none;
 }
 h1,
 h2,
@@ -147,6 +159,12 @@ fieldset[disabled] .btn-xl.active {
   color: #5b9bd5;
   background-color: white;
 }
+
+.btn-donate {
+  margin: 0 auto;
+  display: block;
+}
+
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
@@ -316,6 +334,7 @@ section h3.section-subheading {
   position: relative;
   max-width: 400px;
   margin: 0 auto;
+  text-transform: none;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: rgba(91,155,213, 0.6);
@@ -326,6 +345,8 @@ section h3.section-subheading {
   transition: all ease 0.5s;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
+  text-transform: none;
+  text-decoration: none;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
@@ -339,13 +360,16 @@ section h3.section-subheading {
   top: 50%;
   margin-top: -12px;
   color: white;
+  text-transform: none;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
+  text-transform: none;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
+  text-transform: none;
 }
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
@@ -353,6 +377,7 @@ section h3.section-subheading {
   background-color: white;
   text-align: center;
   padding: 10px;
+  text-transform: none;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
   text-transform: none;
@@ -362,6 +387,7 @@ section h3.section-subheading {
   font-family:  "Open Sans Condensed", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
+  text-transform: none;
   margin: 0;
 }
 #portfolio * {
