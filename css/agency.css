@@ -25,7 +25,8 @@ p {
 }
 
 .carousel-control.left, .carousel-control.right {
-    background-image: none
+    background-image: none;
+    background-size: cover;
 }
 
 p.large {
@@ -168,17 +169,20 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
+  border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-brand {
   color: #5b9bd5;
   font-family: "Open Sans Condensed", Helvetica, Arial, cursive;
   font-size: 18px;
+  border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: #5b9bd5;
+  border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -190,10 +194,12 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   color: white;
   font-size: 18px;
+  border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
   background-color: #5b9bd5;
+  border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .nav li a {
   font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
@@ -202,27 +208,31 @@ fieldset[disabled] .btn-xl.active {
   letter-spacing: 1px;
   color: white;
   font-size: 18px;
+  border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
   color: #5b9bd5;
   outline: none;
+  border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: black;
   background-color: #5b9bd5;
   font-size: 18px;
+  border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
   background-color: #5b9bd5;
+  border-color: rgba(255, 255, 255, 0.02);
 }
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
-    padding: 25px 0;
+    padding: 0px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -248,7 +258,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  /*background-image: url('../img/header-bg.jpg');*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -268,7 +278,7 @@ header .intro-text .intro-lead-in {
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
-  margin-bottom: 25px;
+  /*margin-bottom: 25px;*/
 }
 header .intro-text .intro-heading {
   font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
@@ -300,7 +310,7 @@ header .intro-text .intro-heading {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2.section-heading {
   font-size: 60px;
