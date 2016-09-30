@@ -258,7 +258,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  /*background-image: url('../img/header-bg.jpg');*/
+  background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -789,4 +789,11 @@ body {
 
 .fa-stack-1x {
   color: white;
+}
+
+ul.images{
+  list-style-type:none
+}
+.infos {
+
 }
