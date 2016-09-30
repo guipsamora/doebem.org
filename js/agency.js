@@ -29,5 +29,10 @@
             top: 100
         }
     })
+    
+    // Stop carousel
+    $('.carousel').carousel({
+      interval: false
+    });
 
 })(jQuery); // End of use strict
