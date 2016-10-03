@@ -164,6 +164,9 @@ fieldset[disabled] .btn-xl.active {
 .btn-donate {
   margin: 0 auto;
   display: block;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size:22px
 }
 
 .navbar-custom {
@@ -257,8 +260,9 @@ fieldset[disabled] .btn-xl.active {
     font-size: 1.5em;
   }
 }
+
 header {
-  background-image: url('../img/header-bg.jpg');
+  /*background-image: url('../img/header-bg.jpg');*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -287,6 +291,34 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
 }
+
+.edu {
+  background-image: url('../img/educacao/lousa_edu3.jpg');
+}
+
+.saude {
+  background-image: url('../img/saude/2.png');
+}
+
+.comb_pobreza {
+  background-image: url('../img/combate_pobreza/1.png');
+}
+.metodologia {
+  background-image: url('../img/metodologia/3.png');
+}
+/*.edu {
+  background-image: url('../img/educacao/lousa_edu3.jpg');
+}
+.edu {
+  background-image: url('../img/educacao/lousa_edu3.jpg');
+}
+.edu {
+  background-image: url('../img/educacao/lousa_edu3.jpg');
+}*/
+.gauss {
+  background-image: url('../img/educacao/gauss/educacao-gauss.jpg'); 
+}
+
 
 @media (min-width: 768px) {
   header .intro-text {

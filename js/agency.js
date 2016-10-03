@@ -31,7 +31,7 @@
     })
     
     // Stop carousel
-    $('.carousel').carousel({
+    $('.carousel-ong').carousel({
       interval: false
     });
 
