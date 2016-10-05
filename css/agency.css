@@ -306,9 +306,10 @@ header .intro-text .intro-heading {
 .metodologia {
   background-image: url('../img/metodologia/3.png');
 }
-/*.edu {
-  background-image: url('../img/educacao/lousa_edu3.jpg');
+.sobre {
+  background-image: url('../img/sobre/sobre.png');
 }
+/*
 .edu {
   background-image: url('../img/educacao/lousa_edu3.jpg');
 }
